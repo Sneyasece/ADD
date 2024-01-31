@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Division Operation with Exception Handling</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 300px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        input[type="number"] {
+            width: 100px;
+            padding: 5px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        input[type="button"] {
+            padding: 8px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Division Operation with Exception Handling</h2>
+        <label for="numerator">Numerator:</label>
+        <input type="number" id="numerator">
+        <br>
+        <label for="denominator">Denominator:</label>
+        <input type="number" id="denominator">
+        <br>
+        <input type="button" value="Calculate" onclick="performDivision()">
+        <p id="result"></p>
+    </div>
+
+    <script>
+        function performDivision() {
+            var numerator = document.getElementById('numerator').value;
+            var denominator = document.getElementById('denominator').value;
+
+            try {
+                if (denominator == 0) {
+                    throw "Cannot divide by zero";
+                }
+                var result = numerator / denominator;
+                document.getElementById('result').innerText = "Result: " + result.toFixed(2);
+            } catch (error) {
+                document.getElementById('result').innerText = "Error: " + error;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href=" addprojects.css">
+</head>
+<body>
+    
+</body>
+
+
+<div id="page1">
+     <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img
+          src="images (5).jpeg.jpg"
+          class="food-munch-logo"
+        />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link active" id="navItem1" href="#wcuSection">
+            My Skills
+            <span class="sr-only">(current)</span>
+          </a>
+          <a class="nav-link" href="#exploreMenuSection" id="navItem2" >Projects</a>
+          <a class="nav-link" href="#followUsSection" id="navItem4" >Follow Me</a>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+    <div class="text-center margin">
+      <h1 class="banner-heading mb-3">Sneya</h1>
+      <p class="banner-caption mb-4">Student</p>
+      <button class="custom-button" href="#exploreMenuSection">My Projects</button>
+       </div>
+  </div>
+
+</div>
+
+
+<div id="page2">
+    <div class="wcu-section pt-5 pb-5 " id="wcuSection">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="wcu-section-heading">My Skills</h1>
+              <p class="wcu-section-description">
+                <ul>
+                    <li>Programming</li>
+            
+                </ul>
+              </p>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="wcu-card shadow-lg p-3 mb-3">
+                
+                <h1 class="wcu-card-title mt-3">HTML</h1>
+                <p class="wcu-card-description">
+                    Hyper text mark up language is used for front end development
+                </p>
+              </div>
+            </div>
+            
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="wcu-card shadow-lg p-3 mb-3">
+                
+                <h1 class="wcu-card-title mt-3">C</h1>
+                <p class="wcu-card-description">
+                    C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972.
+                     It is a very popular language, despite being old. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div id="page3">
+    <div class="explore-menu-section pt-5 pb-5 " id="exploreMenuSection">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="menu-section-heading">Projects</h1>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="shadow menu-item-card p-3 mb-3">
+                <img
+                  src="https://img.freepik.com/premium-photo/teamwork-colleagues-staff-collectively-address-important-issues_2221-4701.jpg?w=740"
+                  class="menu-item-image w-100"
+                />
+                <h1 class="menu-card-title">add contest</h1>
+                
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="menu-item-card shadow p-3 mb-3">
+                <img
+                  src="https://img.freepik.com/free-photo/handsome-male-construction-engineer-working-office-with-laptop_1258-80501.jpg?w=740&t=st=1704433512~exp=1704434112~hmac=35bb42489f1822016d9a0f0b214cfdb33ad3b0d03eab966427f515b7385f2683"
+                  class="menu-item-image w-100"
+                />
+                <h1 class="menu-card-title">C Contest</h1>
+                
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+              <div class="menu-item-card shadow p-3 mb-3">
+                <img
+                  src="https://img.freepik.com/free-vector/business-team-brainstorm-idea-lightbulb-from-jigsaw-working-team-collaboration-enterprise-cooperation-colleagues-mutual-assistance-concept-pinkish-coral-bluevector-isolated-illustration_335657-1651.jpg?w=740&t=st=1704447004~exp=1704447604~hmac=72eecf0b865001f3faaa33001de370a343a623e201a903318d09a604e272cdac"
+                  class="menu-item-image w-100"
+                />
+                <h1 class="menu-card-title">english project</h1>
+              
+              </div>
+            </div>
+          
+        </div>
+      </div>
+</div>
+
+
+<div id="page4">
+    <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="follow-us-section-heading">Follow Me</h1>
+            </div>
+            <div class="col-12">
+              <div class="d-flex flex-row justify-content-center">
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+
+</div>
+
+
+<div id="page5">
+    <div class="footer-section pt-5 pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <img
+                src="C:\Users\Admin\Pictures"
+                class="food-munch-logo"
+              />
+              <h1 class="footer-section-mail-id">sneya2005@gmail.com</h1>
+              <h2 style="color:blue;">9385397212</h1>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+
+
+
+</html>
